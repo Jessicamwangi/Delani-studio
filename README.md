@@ -13,7 +13,7 @@ To Be able to view this webpage, you need:
 
 -To have to have either Vs code or atom
 
--Do git clone  to be able to clone this file to your computer and view it.
+-Do git clone https://github.com/Jessicamwangi/Delani-studio.git to be able to clone this file to your computer and view it.
 ## Technologies Used
 Technologies used in this webpage are HTML.
 
