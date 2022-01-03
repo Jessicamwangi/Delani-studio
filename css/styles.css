@@ -42,7 +42,7 @@ h1 {
   font-family: 'Akronim', cursive;
 }
 #service {
-  background-image: url('../images/backgrounds/s_image.jpg');
+  background-image: url('../assets/backgrounds/s_image.jpg');
   color: #fff;
   margin-bottom: 50px;
   background-position: center;
@@ -54,4 +54,48 @@ h1 {
 }
 .specific {
   margin-bottom: 4%;
+}
+.image1 {
+  padding-top: 9%;
+  margin-bottom: 3%;
+}
+.image2 {
+  margin-top: 20%;
+  padding: 35px 0;
+}
+.sermain {
+  margin-top: 15%;
+}
+.hide {
+  display: none;
+}
+.form-cont input {
+  width: 49%;
+  background: transparent;
+}
+.form-cont textarea {
+  margin-top: 10px;
+  width: 100%;
+  background: transparent;
+}
+#contact {
+  padding-top: 100px;
+  margin-bottom: 50px;
+  background-image: url('../assets/backgrounds/c_image.jpg');
+  background-size: cover;
+  background-position: cover;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 10%;
+}
+.footer {
+  margin-top: 30px;
+}
+.form-cont {
+  text-align: center;
+  position: relative;
+  width: 700px;
+  max-width: 100%;
+  left: 50%;
+  transform: translate(-50%);
 }
