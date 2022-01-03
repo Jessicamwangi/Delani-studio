@@ -4,10 +4,16 @@ $('.main').click(function () {
   $(this).children('.show').toggle(1500);
 });
 // giving feedback to the customer
-$("button").click(function (omonge) {
-  var client = document.getElementById('nameDetail').value;
-  alert(' Dear ' + ' esteemed ' + client + ' we have received your message successful. ' + ' Feel free to reach out to us anytime');
-  omonge.preventDefault();
+$('.submit').click(function () {
+  var Name = $('#name').val();
+  var Email = $('#email').val();
+  var Message = $('#comment');
+  var key ='KEY';
+  if (Name == '' || Email == '' || Message == '') {
+      alert('Please make sure you have filled in the form correctly!');
+  } else {
+      alert(' Hello ' + ' We have successfully received your message. Thank you for reaching out to us.');
+  }
 });
 //    reset my form button
 $("button").on('click', function () {
@@ -19,3 +25,5 @@ $("button").on('click', function () {
 $(".card").hover(function () {
   $(this).children(".card-1").fadeToggle(1000, "linear");
 });
+
+
