@@ -8,7 +8,7 @@
   margin-bottom: 9%;
 }
 #head {
-  background-image: url('../images/backgrounds/h_img.jpg');
+  background-image: url('../assets/backgrounds/h_img.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -29,17 +29,17 @@ h6 {
 .specific,
 #contact,
 .footer p {
-  font-family: 'Merienda', cursive;
+  font-family: 'Times New Roman';
 }
 .col-md-12 {
   width: 100%;
   color: #fff;
-  font-family: 'Akronim', cursive;
+  font-family: 'Times New Roman';
   font-size: calc(1vw + 1vh + .5vmin);
   font-size: 1.1em;
 }
 h1 {
-  font-family: 'Akronim', cursive;
+  font-family: 'Times New Roman';
 }
 #service {
   background-image: url('../assets/backgrounds/s_image.jpg');
@@ -49,9 +49,7 @@ h1 {
   padding-top: 120px;
   padding-bottom: 80px;
 }
-.card-deck {
-  padding: 1% 4%;
-}
+
 .specific {
   margin-bottom: 4%;
 }
@@ -69,6 +67,27 @@ h1 {
 .hide {
   display: none;
 }
+.custom-portfolio-images:hover img {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+.Hover {
+  position: static;
+  background: rgba(19, 3, 3, 0.582);
+  cursor: pointer;
+  display: none;
+  transition: all 0.5s ease; 
+}
+
+.custom-portfolio-images {
+  height: 280px;
+  max-width: 280px;
+  padding:2px;
+}
+
+.row{
+  padding:2%;
+}
 .form-cont input {
   width: 49%;
   background: transparent;
@@ -78,15 +97,29 @@ h1 {
   width: 100%;
   background: transparent;
 }
-#contact {
-  padding-top: 100px;
-  margin-bottom: 50px;
+.Contact-Us {
   background-image: url('../assets/backgrounds/c_image.jpg');
   background-size: cover;
-  background-position: cover;
-  width: 100%;
-  max-width: 100%;
-  margin-top: 10%;
+  display: cover;
+  padding: 10%;
+  
+}
+form #contact{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+input[type=text] {
+  background:transparent;
+  color: white;
+}
+textarea[type=text] {
+  background:transparent;
+  color: white;
+}
+
+.submit{
+  position:absolute;
+  padding-left: 25%;
 }
 .footer {
   margin-top: 30px;
@@ -99,7 +132,7 @@ h1 {
   left: 50%;
   transform: translate(-50%);
 }
-:placeholder,
+::placeholder,
 .con {
     color: #fff;
 }
@@ -128,30 +161,12 @@ h1 {
 #portfolio img {
     width: 100%;
 }
-.card {
-    margin: 10px 0;
-    position: relative;
-    overflow: hidden;
-}
-.card:hover img {
-    transform: scale(1.2);
-    transition: all 0.3s ease;
-}
-.card-1 {
-    position: absolute;
-    width: 100%;
-    min-height: 100%;
-    background: rgba(0, 0, 0, 0.582);
-    cursor: pointer;
-    display: none;
-    transition: all 0.5s ease;
-}
 .ptag {
     padding: 5% 0;
     color: white;
     background-color: rgba(0, 0, 0, 0.301);
     padding: 50px 10px;
-    font-weight: 100%;
+    
     padding-top: 30px;
     border: 4px solid whitesmoke;
     font-size: 1.1em;
@@ -159,7 +174,7 @@ h1 {
     margin: 20% 5%;
     overflow: hidden;
     letter-spacing: 2px;
-    font-family: 'Merienda', cursive;
+    font-family: 'Times New Roman';
 }
 @media screen and (max-width:450px) {
     .form-cont input {
