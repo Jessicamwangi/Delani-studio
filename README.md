@@ -1,6 +1,7 @@
 # Delani Studio.
 ####  Delani Studios links users to software developers and engineers.
- Live link 
+ Live link https://jessicamwangi.github.io/Delani-studio/
+
 #### By Jessica Mwangi
 ## Description
 This project is about Delani Studio. It explains to the user what Delani Studio is, the services we provide, some example portfolios and a contact section to let us know your feedback.
