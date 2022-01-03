@@ -3,6 +3,10 @@ $('.main').click(function () {
   $(this).children('.hide').slideToggle(1200);
   $(this).children('.show').toggle(1500);
 });
+//portifolio section 
+$(".custom-portfolio-images").hover(function () {
+  $(this).children(".Hover").fadeToggle(1000, "linear");
+});
 // giving feedback to the customer
 $('.submit').click(function () {
   var Name = $('#name').val();
@@ -21,9 +25,6 @@ $("button").on('click', function () {
     this.reset();
   });
 });
-//portifolio section 
-$(".card").hover(function () {
-  $(this).children(".card-1").fadeToggle(1000, "linear");
-});
+
 
 
