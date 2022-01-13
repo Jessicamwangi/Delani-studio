@@ -1,3 +1,8 @@
+body {
+  overflow-x: hidden;
+}
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -23,11 +28,7 @@ h6 {
 .resize {
   font-size: cal(1vh + 1vw + .5vmin);
 }
-#about,
-#service,
-#pple,
-.specific,
-#contact,
+
 .footer p {
   font-family: 'Times New Roman';
 }
@@ -77,6 +78,7 @@ h1 {
   cursor: pointer;
   display: none;
   transition: all 0.5s ease; 
+  bottom: -150px;
 }
 
 .custom-portfolio-images {
@@ -177,16 +179,16 @@ textarea[type=text] {
     font-family: 'Times New Roman';
 }
 @media screen and (max-width:450px) {
-    .form-cont input {
-        width: 100%;
-        margin-top: 10px;
-    } 
-    body{
-        overflow-x: hidden;
-    }
+  .form-cont input {
+      width: 100%;
+      margin-top: 10px;
+  } 
+  body{
+      overflow-x: hidden;
+  }
 }
 @media screen and (max-width:1024px) {
-    * {
-        font-size: calc(1vw + 1vh + .5vmin);
-    }
+* {
+    font-size: calc(1vw + 1vh + .5vmin);
+}
 }
